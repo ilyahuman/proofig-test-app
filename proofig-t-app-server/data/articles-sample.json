@@ -1,0 +1,502 @@
+[
+  {
+    "title": "Cybersecurity Best Practices 2024",
+    "fileName": "Cybersecurity_Best_Practices_2024.pdf",
+    "dateSubmitted": "2024-12-15",
+    "stage": "pre-publication",
+    "note": "Recent zero-day vulnerabilities should be included in the threat analysis section.",
+    "imageAnalysis": {
+      "status": "Failed",
+      "totalImages": 8,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-2jkk3m"
+    },
+    "textAnalysis": {
+      "status": "Failed",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-2j9u39"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 24,
+      "suspicious": 3,
+      "bad": 0,
+      "status": "In Progress",
+      "fullReport": "https://reports.example.com/cit-v56vtk"
+    }
+  },
+  {
+    "title": "Artificial Intelligence in Robotics",
+    "fileName": "Artificial_Intelligence_in_Robotics.pdf",
+    "dateSubmitted": "2024-12-16",
+    "stage": "post-publication",
+    "note": "Consider expanding the section on reinforcement learning applications in industrial robots.",
+    "imageAnalysis": {
+      "status": "In Progress",
+      "totalImages": 12,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-bcp8uo"
+    },
+    "textAnalysis": {
+      "status": "Pending",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-r9hvq8"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 69,
+      "suspicious": 5,
+      "bad": 1,
+      "status": "Complete",
+      "fullReport": "https://reports.example.com/cit-fzp4lk"
+    }
+  },
+  {
+    "title": "Blockchain Technology in Supply Chain",
+    "fileName": "Blockchain_Technology_in_Supply_Chain.pdf",
+    "dateSubmitted": "2024-12-17",
+    "stage": "pre-publication",
+    "note": "",
+    "imageAnalysis": {
+      "status": "Complete",
+      "totalImages": 8,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-ffwp8j"
+    },
+    "textAnalysis": {
+      "status": "In Progress",
+      "similaritiesFound": true,
+      "fullReport": "https://reports.example.com/txt-kec45i"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 32,
+      "suspicious": 1,
+      "bad": 1,
+      "status": "Complete",
+      "fullReport": "https://reports.example.com/cit-8haqgq"
+    }
+  },
+  {
+    "title": "Machine Learning in Healthcare Applications",
+    "fileName": "Machine_Learning_in_Healthcare_Applications.pdf",
+    "dateSubmitted": "2024-12-18",
+    "stage": "post-publication",
+    "note": "Additional patient privacy considerations should be addressed in the methodology section.",
+    "imageAnalysis": {
+      "status": "Failed",
+      "totalImages": 9,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-hxhilu"
+    },
+    "textAnalysis": {
+      "status": "Failed",
+      "similaritiesFound": true,
+      "fullReport": "https://reports.example.com/txt-i87s1y"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 36,
+      "suspicious": 3,
+      "bad": 2,
+      "status": "Complete",
+      "fullReport": "https://reports.example.com/cit-mv91ys"
+    }
+  },
+  {
+    "title": "Cloud Computing Security Patterns",
+    "fileName": "Cloud_Computing_Security_Patterns.pdf",
+    "dateSubmitted": "2024-12-19",
+    "stage": "pre-publication",
+    "note": "Please provide more details about the encryption methods used in the multi-cloud scenarios.",
+    "imageAnalysis": {
+      "status": "Pending",
+      "totalImages": 11,
+      "duplications": 2,
+      "fullReport": "https://reports.example.com/img-5e81ns"
+    },
+    "textAnalysis": {
+      "status": "In Progress",
+      "similaritiesFound": true,
+      "fullReport": "https://reports.example.com/txt-txdxuf"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 47,
+      "suspicious": 5,
+      "bad": 2,
+      "status": "In Progress",
+      "fullReport": "https://reports.example.com/cit-htzudn"
+    }
+  },
+  {
+    "title": "Software Design Patterns Review",
+    "fileName": "Software_Design_Patterns_Review.pdf",
+    "dateSubmitted": "2024-12-20",
+    "stage": "post-publication",
+    "note": "",
+    "imageAnalysis": {
+      "status": "Failed",
+      "totalImages": 23,
+      "duplications": 2,
+      "fullReport": "https://reports.example.com/img-ya9v3f"
+    },
+    "textAnalysis": {
+      "status": "Complete",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-hdbowi"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 25,
+      "suspicious": 1,
+      "bad": 0,
+      "status": "In Progress",
+      "fullReport": "https://reports.example.com/cit-qhiby3"
+    }
+  },
+  {
+    "title": "Quantum Computing: A Practical Approach",
+    "fileName": "Quantum_Computing__A_Practical_Approach.pdf",
+    "dateSubmitted": "2024-12-21",
+    "stage": "pre-publication",
+    "note": "Quantum circuit diagrams need higher resolution. Please provide original files.",
+    "imageAnalysis": {
+      "status": "Complete",
+      "totalImages": 21,
+      "duplications": 1,
+      "fullReport": "https://reports.example.com/img-t8dxyn"
+    },
+    "textAnalysis": {
+      "status": "Failed",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-fuwbr0"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 65,
+      "suspicious": 1,
+      "bad": 2,
+      "status": "In Progress",
+      "fullReport": "https://reports.example.com/cit-ikhddh"
+    }
+  },
+  {
+    "title": "IoT Network Protocols Analysis",
+    "fileName": "IoT_Network_Protocols_Analysis.pdf",
+    "dateSubmitted": "2024-12-22",
+    "stage": "post-publication",
+    "note": "Include comparison with emerging MQTT alternatives.",
+    "imageAnalysis": {
+      "status": "Pending",
+      "totalImages": 7,
+      "duplications": 3,
+      "fullReport": "https://reports.example.com/img-i1x53o"
+    },
+    "textAnalysis": {
+      "status": "Complete",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-m7na10"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 47,
+      "suspicious": 5,
+      "bad": 1,
+      "status": "In Progress",
+      "fullReport": "https://reports.example.com/cit-a7fv06"
+    }
+  },
+  {
+    "title": "Data Science in Financial Markets",
+    "fileName": "Data_Science_in_Financial_Markets.pdf",
+    "dateSubmitted": "2024-12-23",
+    "stage": "pre-publication",
+    "note": "Risk assessment models need further validation with recent market data.",
+    "imageAnalysis": {
+      "status": "In Progress",
+      "totalImages": 9,
+      "duplications": 2,
+      "fullReport": "https://reports.example.com/img-5wiijz"
+    },
+    "textAnalysis": {
+      "status": "Failed",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-yyi9un"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 50,
+      "suspicious": 3,
+      "bad": 1,
+      "status": "Pending",
+      "fullReport": "https://reports.example.com/cit-q67c0z"
+    }
+  },
+  {
+    "title": "Edge Computing Architecture Design",
+    "fileName": "Edge_Computing_Architecture_Design.pdf",
+    "dateSubmitted": "2024-12-24",
+    "stage": "post-publication",
+    "note": "",
+    "imageAnalysis": {
+      "status": "In Progress",
+      "totalImages": 7,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-qdmvtd"
+    },
+    "textAnalysis": {
+      "status": "Pending",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-xcq8f0"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 40,
+      "suspicious": 0,
+      "bad": 1,
+      "status": "Pending",
+      "fullReport": "https://reports.example.com/cit-ixt2ew"
+    }
+  },
+  {
+    "title": "Recent Advances in Natural Language Processing",
+    "fileName": "Recent_Advances_in_Natural_Language_Processing.pdf",
+    "dateSubmitted": "2024-12-25",
+    "stage": "pre-publication",
+    "note": "Update benchmarks with results from the latest transformer models.",
+    "imageAnalysis": {
+      "status": "In Progress",
+      "totalImages": 22,
+      "duplications": 2,
+      "fullReport": "https://reports.example.com/img-bjahuv"
+    },
+    "textAnalysis": {
+      "status": "In Progress",
+      "similaritiesFound": true,
+      "fullReport": "https://reports.example.com/txt-gessn7"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 42,
+      "suspicious": 5,
+      "bad": 1,
+      "status": "In Progress",
+      "fullReport": "https://reports.example.com/cit-b9rns4"
+    }
+  },
+  {
+    "title": "Advanced Deep Learning Architectures",
+    "fileName": "Advanced_Deep_Learning_Architectures.pdf",
+    "dateSubmitted": "2024-12-26",
+    "stage": "post-publication",
+    "note": "",
+    "imageAnalysis": {
+      "status": "Pending",
+      "totalImages": 24,
+      "duplications": 2,
+      "fullReport": "https://reports.example.com/img-uzfs77"
+    },
+    "textAnalysis": {
+      "status": "In Progress",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-e5h17z"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 31,
+      "suspicious": 3,
+      "bad": 2,
+      "status": "Failed",
+      "fullReport": "https://reports.example.com/cit-8hkwbe"
+    }
+  },
+  {
+    "title": "Neural Networks for Computer Vision",
+    "fileName": "Neural_Networks_Computer_Vision.pdf",
+    "dateSubmitted": "2024-12-27",
+    "stage": "pre-publication",
+    "note": "Include performance benchmarks for the proposed architecture on standard datasets.",
+    "imageAnalysis": {
+      "status": "In Progress",
+      "totalImages": 15,
+      "duplications": 1,
+      "fullReport": "https://reports.example.com/img-k9m4xt"
+    },
+    "textAnalysis": {
+      "status": "Complete",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-p2w8nh"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 45,
+      "suspicious": 2,
+      "bad": 0,
+      "status": "Complete",
+      "fullReport": "https://reports.example.com/cit-v7j3qr"
+    }
+  },
+  {
+    "title": "5G Network Security Protocols",
+    "fileName": "5G_Network_Security_Protocols.pdf",
+    "dateSubmitted": "2024-12-28",
+    "stage": "post-publication",
+    "note": "",
+    "imageAnalysis": {
+      "status": "Failed",
+      "totalImages": 6,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-h8t5mx"
+    },
+    "textAnalysis": {
+      "status": "Complete",
+      "similaritiesFound": true,
+      "fullReport": "https://reports.example.com/txt-n4k9pq"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 38,
+      "suspicious": 4,
+      "bad": 1,
+      "status": "In Progress",
+      "fullReport": "https://reports.example.com/cit-b2d7wk"
+    }
+  },
+  {
+    "title": "Sustainable Software Engineering Practices",
+    "fileName": "Sustainable_Software_Engineering.pdf",
+    "dateSubmitted": "2024-12-29",
+    "stage": "pre-publication",
+    "note": "Add energy consumption metrics for the proposed development methodology.",
+    "imageAnalysis": {
+      "status": "Complete",
+      "totalImages": 9,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-f5r2vn"
+    },
+    "textAnalysis": {
+      "status": "Pending",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-j6m8hq"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 29,
+      "suspicious": 1,
+      "bad": 0,
+      "status": "Complete",
+      "fullReport": "https://reports.example.com/cit-l9c4xz"
+    }
+  },
+  {
+    "title": "Microservices Architecture Patterns",
+    "fileName": "Microservices_Architecture_Patterns.pdf",
+    "dateSubmitted": "2024-12-30",
+    "stage": "post-publication",
+    "note": "Include more details about service mesh implementation examples.",
+    "imageAnalysis": {
+      "status": "In Progress",
+      "totalImages": 13,
+      "duplications": 2,
+      "fullReport": "https://reports.example.com/img-w3n7pq"
+    },
+    "textAnalysis": {
+      "status": "Failed",
+      "similaritiesFound": true,
+      "fullReport": "https://reports.example.com/txt-k5b9mx"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 52,
+      "suspicious": 3,
+      "bad": 1,
+      "status": "Complete",
+      "fullReport": "https://reports.example.com/cit-h7t4vn"
+    }
+  },
+  {
+    "title": "DevOps Automation Strategies",
+    "fileName": "DevOps_Automation_Strategies.pdf",
+    "dateSubmitted": "2024-12-31",
+    "stage": "pre-publication",
+    "note": "",
+    "imageAnalysis": {
+      "status": "Complete",
+      "totalImages": 17,
+      "duplications": 1,
+      "fullReport": "https://reports.example.com/img-q8w2mz"
+    },
+    "textAnalysis": {
+      "status": "In Progress",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-d4x7vk"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 33,
+      "suspicious": 2,
+      "bad": 0,
+      "status": "Pending",
+      "fullReport": "https://reports.example.com/cit-m6n9pq"
+    }
+  },
+  {
+    "title": "Augmented Reality in Education",
+    "fileName": "Augmented_Reality_Education.pdf",
+    "dateSubmitted": "2025-01-01",
+    "stage": "post-publication",
+    "note": "Add user experience survey results from the pilot program.",
+    "imageAnalysis": {
+      "status": "Pending",
+      "totalImages": 21,
+      "duplications": 3,
+      "fullReport": "https://reports.example.com/img-t5k8wx"
+    },
+    "textAnalysis": {
+      "status": "Complete",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-r2b6nz"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 41,
+      "suspicious": 0,
+      "bad": 0,
+      "status": "In Progress",
+      "fullReport": "https://reports.example.com/cit-g9c4mx"
+    }
+  },
+  {
+    "title": "Big Data Analytics in Healthcare",
+    "fileName": "Big_Data_Analytics_Healthcare.pdf",
+    "dateSubmitted": "2025-01-02",
+    "stage": "pre-publication",
+    "note": "Include HIPAA compliance details for the proposed data processing pipeline.",
+    "imageAnalysis": {
+      "status": "Failed",
+      "totalImages": 11,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-j7h4vq"
+    },
+    "textAnalysis": {
+      "status": "In Progress",
+      "similaritiesFound": true,
+      "fullReport": "https://reports.example.com/txt-w5m8pz"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 57,
+      "suspicious": 5,
+      "bad": 2,
+      "status": "Complete",
+      "fullReport": "https://reports.example.com/cit-k3n6bx"
+    }
+  },
+  {
+    "title": "Embedded Systems Security",
+    "fileName": "Embedded_Systems_Security.pdf",
+    "dateSubmitted": "2025-01-03",
+    "stage": "post-publication",
+    "note": "Update firmware vulnerability assessment with recent CVE findings.",
+    "imageAnalysis": {
+      "status": "Complete",
+      "totalImages": 8,
+      "duplications": 0,
+      "fullReport": "https://reports.example.com/img-l4p7wz"
+    },
+    "textAnalysis": {
+      "status": "Complete",
+      "similaritiesFound": false,
+      "fullReport": "https://reports.example.com/txt-q9t2mx"
+    },
+    "citationsAnalysis": {
+      "totalCitations": 44,
+      "suspicious": 1,
+      "bad": 0,
+      "status": "Complete",
+      "fullReport": "https://reports.example.com/cit-f6h8vn"
+    }
+  }
+]
