@@ -1,27 +1,17 @@
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
 import { serve } from '@hono/node-server';
-import { readFileSync } from 'fs';
-import { join } from 'path';
 import path from 'path';
+import Database from 'better-sqlite3';
+import { Article } from './types';
 
-const __dirname = path.resolve();
+const db = new Database('database.sqlite');
 const app = new Hono();
-
-const getSubmissions = (): any[] => {
-  try {
-    const filePath = join(__dirname, './data/articles-sample.json');
-    return JSON.parse(readFileSync(filePath, 'utf-8'));
-  } catch (error) {
-    console.error('Error reading JSON file:', error);
-    return [];
-  }
-};
 
 app.use(
   '*',
   cors({
-    origin: 'http://localhost:5173',
+    origin: ['http://localhost:5173', 'http://localhost:4173'],
     allowMethods: ['GET', 'POST'],
     allowHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
@@ -29,7 +19,57 @@ app.use(
 );
 
 app.get('/submissions', (c) => {
-  return c.json({ success: true, submissions: getSubmissions() });
+  const rawData = db
+    .prepare(
+      `
+          SELECT a.*,
+                 i.status     AS imageStatus,
+                 i.totalImages,
+                 i.duplications,
+                 i.fullReport AS imageReport,
+                 t.status     AS textStatus,
+                 t.similaritiesFound,
+                 t.fullReport AS textReport,
+                 c.totalCitations,
+                 c.suspicious,
+                 c.bad,
+                 c.status AS citationStatus,
+                 c.fullReport AS citationReport
+          FROM articles a
+                   LEFT JOIN image_analysis i ON a.id = i.article_id
+                   LEFT JOIN text_analysis t ON a.id = t.article_id
+                   LEFT JOIN citations_analysis c ON a.id = c.article_id
+      `
+    )
+    .all();
+
+  const submissions: Article[] = rawData.map((row: any) => ({
+    title: row.title,
+    fileName: row.fileName,
+    dateSubmitted: row.dateSubmitted,
+    stage: row.stage,
+    note: row.note || '',
+    imageAnalysis: {
+      status: row.imageStatus,
+      totalImages: row.totalImages,
+      duplications: row.duplications,
+      fullReport: row.imageReport,
+    },
+    textAnalysis: {
+      status: row.textStatus,
+      similaritiesFound: Boolean(row.similaritiesFound),
+      fullReport: row.textReport,
+    },
+    citationsAnalysis: {
+      totalCitations: row.totalCitations,
+      suspicious: row.suspicious,
+      bad: row.bad,
+      status: row.citationStatus,
+      fullReport: row.citationReport,
+    },
+  }));
+
+  return c.json({ success: true, submissions });
 });
 
 app.onError((err, c) => {

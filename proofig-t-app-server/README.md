@@ -1,8 +1,21 @@
-```
-npm install
-npm run dev
+# To start App run next commands:
+
+```shell
+  npm install
 ```
 
+```shell
+  sqlite3 database.sqlite < schema.sql
 ```
-open http://localhost:3000
+
+```shell
+  npx tsx src/seed.ts
+```
+
+```shell
+  npm run dev
+```
+
+```markdown
+Go to http://localhost:3000/submissions
 ```
